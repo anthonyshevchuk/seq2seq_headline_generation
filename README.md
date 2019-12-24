@@ -1,20 +1,25 @@
 # Word level Seq2seq headline generation
 
+## Setup
+* 1 Download trained model and extract it into seq2seq/models folder 
+* 2 Download test data and extract it into seq2seq/data folder 
+
 ## Run 
-* 1 Notebook demo: **headline demo.py**
-* 2 Rest API: 
-	*app.py
-	*curl...
-* 3 Count metrics:  run seq2seq/predict.py  
+* 1 Notebook demo: **headline_demo.py**
+* 2 Count BLUE and ROUGE metrics:  run **seq2seq/predict.py**  
+* 3 Rest API: 
+	* run **app.py**
+	* request: 
+	* **curl -i -H "Content-Type: application/json" -X POST -d '{"article":"Sample article"}' http://localhost:5000/**generate_headline
 
 
 ## Set parameters and train
-* 1 Notebook demo: **headline demo.py**
-* 2 Rest API: ..
-* 3 
+* 1 Set text params in seq2seq/news_loader.py 
+* 2 Set model params in seq2seq/seq2seq_model.py
+* 3 Place training data into seq2seq/data folter and run **train.py**
 
 
-## Data
+## Datasets
 * 1 https://www.kaggle.com/yutkin/corpus-of-russian-news-articles-from-lenta
 * 2 https://github.com/RossiyaSegodnya/ria_news_dataset
 
@@ -26,6 +31,6 @@
 
 This is the code for Dialogue 2019 Student session paper: http://www.dialog-21.ru/media/4680/text-summarization-with-recurrent-neural-network-for-headline-generation.pdf
 
-N/B 
+N/B: stacked_seq2seq is not supported yet
 
 
