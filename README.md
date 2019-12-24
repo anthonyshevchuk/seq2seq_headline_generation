@@ -1,8 +1,8 @@
 # Word-level Seq2seq headline generation
 
 ## Setup
-* 1 Download [trained model](https://drive.google.com/open?id=1avWWfWJxc6tt2KjYn49cWv6D_KOrTz0p) and extract it into **seq2seq/models** folder 
-* 2 Download [test data](https://drive.google.com/open?id=1Gshy_lpTpueC7L2B93EJCLjhxOPRGCEb) and extract it into **seq2seq/data** folder 
+1. Download [trained model](https://drive.google.com/open?id=1avWWfWJxc6tt2KjYn49cWv6D_KOrTz0p) and extract it into **seq2seq/models** folder 
+2. Download [test data](https://drive.google.com/open?id=1Gshy_lpTpueC7L2B93EJCLjhxOPRGCEb) and extract it into **seq2seq/data** folder 
 
 ## Run 
 * Jupyter Notebook demo: **headline_demo.py**
