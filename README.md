@@ -5,7 +5,7 @@
 * 2 Download [test data](https://drive.google.com/open?id=1Gshy_lpTpueC7L2B93EJCLjhxOPRGCEb) and extract it into **seq2seq/data** folder 
 
 ## Run 
-* Notebook demo: **headline_demo.py**
+* Jupyter Notebook demo: **headline_demo.py**
 * Count BLUE and ROUGE metrics:  run **seq2seq/predict.py**  
 * Rest API: 
 	* run **app.py**
