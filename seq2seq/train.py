@@ -12,12 +12,12 @@ TRAINING_EPOCHS = 12
 
 
 def main():
-    data_dir_path = '../seq2seq_headline_generation/data'
+    data_dir_path = 'data'
     report_dir_path = 'reports'
     model_dir_path = 'models'
     
     print('loading data ...')
-    df = pd.read_csv('../../text_summarization/data/datasets/merged_ria_lenta.csv')
+    df = pd.read_csv(data_dir_path + 'merged_ria_lenta.csv')
 
     print('extract configuration from input texts ...')
     Y = df['title']
