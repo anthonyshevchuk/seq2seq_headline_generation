@@ -18,6 +18,12 @@
 * 3 Place training data into **seq2seq/data** folder and run **train.py**
 
 
+N/B: 
+* Stacked seq2seq is not supported yet
+* Encoding issues in REST Api
+
+
+
 ## Datasets
 * 1 https://www.kaggle.com/yutkin/corpus-of-russian-news-articles-from-lenta
 * 2 https://github.com/RossiyaSegodnya/ria_news_dataset
@@ -31,6 +37,5 @@
 This is the code for Dialogue 2019 Student session paper:  
 [Shevchuk A.A., Zdorovets A.I., Text Summarization with Recurrent Neural Network for Headline Generation](http://www.dialog-21.ru/media/4680/text-summarization-with-recurrent-neural-network-for-headline-generation.pdf)
 
-N/B: stacked seq2seq is not supported yet
 
 
