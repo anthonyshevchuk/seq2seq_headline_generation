@@ -19,8 +19,8 @@
 
 
 N/B: 
-* Stacked seq2seq is not supported yet
-* Encoding issues might still arise using REST API
+* Stacked seq2seq is not yet supported for beam search inference 
+* Encoding issues might still arise using REST API (esp. on Windows w/ russian inputs) --> for now **predict.py** and **headline_demo.py** are more preferable.
 
 
 
