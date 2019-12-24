@@ -5,9 +5,9 @@
 * 2 Download [test data](https://drive.google.com/open?id=1Gshy_lpTpueC7L2B93EJCLjhxOPRGCEb) and extract it into **seq2seq/data** folder 
 
 ## Run 
-* 1 Notebook demo: **headline_demo.py**
-* 2 Count BLUE and ROUGE metrics:  run **seq2seq/predict.py**  
-* 3 Rest API: 
+* Notebook demo: **headline_demo.py**
+* Count BLUE and ROUGE metrics:  run **seq2seq/predict.py**  
+* Rest API: 
 	* run **app.py**
 	* request: ```curl -i -H "Content-Type: application/json" -X POST -d '{"article":"Sample article"}' http://localhost:5000/generate_headline```
 
