@@ -9,14 +9,13 @@
 * 2 Count BLUE and ROUGE metrics:  run **seq2seq/predict.py**  
 * 3 Rest API: 
 	* run **app.py**
-	* request: 
-	* **curl -i -H "Content-Type: application/json" -X POST -d '{"article":"Sample article"}' http://localhost:5000/**generate_headline
+	* request: ```curl -i -H "Content-Type: application/json" -X POST -d '{"article":"Sample article"}' http://localhost:5000/generate_headline```
 
 
 ## Set parameters and train
 * 1 Set text params in **seq2seq/news_loader.py** 
 * 2 Set model params in **seq2seq/seq2seq_model.py**
-* 3 Place training data into **seq2seq/data folter** and run **train.py**
+* 3 Place training data into **seq2seq/data** folder and run **train.py**
 
 
 ## Datasets
