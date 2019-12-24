@@ -25,13 +25,13 @@ N/B:
 
 
 ## Datasets
-* 1 https://www.kaggle.com/yutkin/corpus-of-russian-news-articles-from-lenta
-* 2 https://github.com/RossiyaSegodnya/ria_news_dataset
+* https://www.kaggle.com/yutkin/corpus-of-russian-news-articles-from-lenta
+* https://github.com/RossiyaSegodnya/ria_news_dataset
 
 ## Reference:
-* 1 https://github.com/chen0040/keras-text-summarization 
-* 2 https://github.com/devm2024/nmt_keras
-* 3 https://vk.com/headline_gen
+1. https://github.com/chen0040/keras-text-summarization 
+2. https://github.com/devm2024/nmt_keras
+3. https://vk.com/headline_gen
 
 
 This is the code for Dialogue 2019 Student session paper:  
