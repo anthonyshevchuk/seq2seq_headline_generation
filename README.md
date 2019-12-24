@@ -20,7 +20,7 @@
 
 N/B: 
 * Stacked seq2seq is not supported yet
-* Encoding issues in REST Api
+* Encoding issues might still arise using REST API
 
 
 
