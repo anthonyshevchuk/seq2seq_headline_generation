@@ -1,4 +1,4 @@
-# Word level Seq2seq headline generation
+# Word-level Seq2seq headline generation
 
 ## Setup
 * 1 Download [trained model](https://drive.google.com/open?id=1avWWfWJxc6tt2KjYn49cWv6D_KOrTz0p) and extract it into **seq2seq/models** folder 

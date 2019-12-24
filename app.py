@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import re
-from seq2seq.seq2seq_model import Seq2SeqSummarizer
+from seq2seq.seq2seq_model import Embedding_Seq2SeqSummarizer
 import tensorflow as tf
 
 
@@ -37,4 +37,3 @@ def seq2seq_summarize():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
-    # COMMAND: curl -i -H "Content-Type: application/json" -X POST -d '{"article":"Sample article"}' http://localhost:5000/generate_headline
