@@ -1,5 +1,5 @@
-seq2seq/__pycache__/
 .ipynb_checkpoints/
+seq2seq/__pycache__/
 seq2seq/data/*.csv
 seq2seq/models/*.h5
 seq2seq/models/*.json
