@@ -13,9 +13,9 @@
 
 
 ## Set parameters and train
-* 1 Set text params in **seq2seq/news_loader.py** 
-* 2 Set model params in **seq2seq/seq2seq_model.py**
-* 3 Place training data into **seq2seq/data** folder and run **train.py**
+1. Set text params in **seq2seq/news_loader.py** 
+2. Set model params in **seq2seq/seq2seq_model.py**
+3. Place training data into **seq2seq/data** folder and run **train.py**
 
 
 N/B: 
