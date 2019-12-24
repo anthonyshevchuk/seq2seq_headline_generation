@@ -1,8 +1,8 @@
 # Word level Seq2seq headline generation
 
 ## Setup
-* 1 Download trained model and extract it into seq2seq/models folder 
-* 2 Download test data and extract it into seq2seq/data folder 
+* 1 Download [trained model](https://drive.google.com/open?id=1avWWfWJxc6tt2KjYn49cWv6D_KOrTz0p) and extract it into **seq2seq/models** folder 
+* 2 Download [test data](https://drive.google.com/open?id=1Gshy_lpTpueC7L2B93EJCLjhxOPRGCEb) and extract it into **seq2seq/data** folder 
 
 ## Run 
 * 1 Notebook demo: **headline_demo.py**
@@ -14,9 +14,9 @@
 
 
 ## Set parameters and train
-* 1 Set text params in seq2seq/news_loader.py 
-* 2 Set model params in seq2seq/seq2seq_model.py
-* 3 Place training data into seq2seq/data folter and run **train.py**
+* 1 Set text params in **seq2seq/news_loader.py** 
+* 2 Set model params in **seq2seq/seq2seq_model.py**
+* 3 Place training data into **seq2seq/data folter** and run **train.py**
 
 
 ## Datasets
@@ -29,8 +29,9 @@
 * 3 https://vk.com/headline_gen
 
 
-This is the code for Dialogue 2019 Student session paper: http://www.dialog-21.ru/media/4680/text-summarization-with-recurrent-neural-network-for-headline-generation.pdf
+This is the code for Dialogue 2019 Student session paper:  
+[Shevchuk A.A., Zdorovets A.I., Text Summarization with Recurrent Neural Network for Headline Generation](http://www.dialog-21.ru/media/4680/text-summarization-with-recurrent-neural-network-for-headline-generation.pdf)
 
-N/B: stacked_seq2seq is not supported yet
+N/B: stacked seq2seq is not supported yet
 
 
